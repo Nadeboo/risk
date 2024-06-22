@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = principality
+technology_group = western
+primary_culture = english
+add_accepted_culture = scottish
+add_accepted_culture = welsh
+religion = protestant
+capital = 236# London
+government_rank = 1

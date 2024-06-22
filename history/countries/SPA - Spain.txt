@@ -1,0 +1,24 @@
+government = monarchy
+add_government_reform = principality
+primary_culture = castillian
+add_accepted_culture = sicilian
+add_accepted_culture = leonese
+add_accepted_culture = neapolitan
+add_accepted_culture = wallonian
+religion = catholic
+technology_group = western
+historical_friend = POR
+capital = 219# Toledo
+national_focus = MIL
+government_rank = 1
+
+1444.11.11 = {
+	monarch = {
+		name = "test"
+		dynasty = "test"
+		adm = 3
+		dip = 3
+		mil = 3
+		personality = immortal_personality
+
+	}

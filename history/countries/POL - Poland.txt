@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = principality
+primary_culture = polish
+religion = catholic
+technology_group = eastern
+historical_friend = LIT
+historical_rival = TEU
+capital = 262# Krakow
+government_rank = 1

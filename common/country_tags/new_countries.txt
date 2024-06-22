@@ -1,0 +1,3 @@
+TRK = "countries/Turkey.txt"
+IDN = "countries/India.txt"
+CHN = "countries/China.txt"
