@@ -26,3 +26,6 @@ discovered_by = north_american
 discovered_by = polynesian_tech
 discovered_by = south_american
 discovered_by = sub_saharan
+add_core = UKR
+owner = UKR
+controller = UKR

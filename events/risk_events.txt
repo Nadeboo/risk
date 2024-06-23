@@ -1,30 +1,32 @@
 namespace = risk_events
 country_event = {
-	id = risk_events.1
-	title = risk_events.1.t
-	desc = risk_events.1.d
-	hidden = yes 
-	trigger = {
-		any_province = {
-			NOT = { owned_by = ROOT }
-			units_in_province = ROOT
-		}
-	}
-	picture = SYNTHETICS_eventPicture
-	
-	immediate = {
-		hidden_effect = {
-			every_province = {
-				limit = {
-					NOT = { owned_by = ROOT }
-					units_in_province = ROOT
-				}
-				cede_province = ROOT
-				add_core = ROOT
-			}
-		}
-	}
-	option = {
-		name = "risk_events.1.a"
-	}
+    id = risk_events.1
+    title = risk_events.1.t
+    dec = risk_events.1.d
+    hidden = yes 
+    trigger = {
+    any_province = {
+        NOT = { 
+            owned_by = ROOT 
+            development = 4
+            }
+        units_in_province = ROOT
+    }
+}
+
+immediate = {
+    hidden_effect = {
+        every_province = {
+            limit = {
+                NOT = { owned_by = ROOT }
+                units_in_province = ROOT
+            }
+            cede_province = ROOT
+            add_core = ROOT
+        }
+    }
+}
+option = {
+    name = risk.events.1.a
+}
 }

@@ -28,3 +28,6 @@ discovered_by = north_american
 discovered_by = ottoman
 discovered_by = polynesian_tech
 discovered_by = south_american
+add_core = KON
+owner = KON
+controller = KON

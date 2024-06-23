@@ -1,6 +1,6 @@
 #118 - Roma
-owner = ITA
-controller = ITA
+owner = ROM
+controller = ROM
 base_tax = 1
 base_production = 1
 trade_goods = paper
@@ -16,7 +16,6 @@ add_province_triggered_modifier = catholic_rome
 add_province_triggered_modifier = non_catholic_rome
 extra_cost = 8
 center_of_trade = 1
-add_core = ITA
 discovered_by = aboriginal_tech
 discovered_by = andean
 discovered_by = central_african
@@ -30,4 +29,5 @@ discovered_by = north_american
 discovered_by = polynesian_tech
 discovered_by = south_american
 discovered_by = sub_saharan
+add_core = ROM
 fort_15th = yes

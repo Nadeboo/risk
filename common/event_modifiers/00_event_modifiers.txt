@@ -3,26 +3,24 @@
 ##################################################################################################
 
 risk_modifier = {
-	land_forcelimit_modifier = -0.9
+	land_forcelimit_modifier = -0.5
 	land_forcelimit = -5
 	capped_by_forcelimit = yes
 	mecenary_cost = 1000
 	cb_on_government_enemies = yes
 	cb_on_religious_enemies = yes 
+	may_establish_frontier = yes 
+	colony_development_boost = 1
 }
 risk_modifier_ai = {
-	land_forcelimit_modifier = -0.9
+	land_forcelimit_modifier = -0.5
 	land_forcelimit = -5
-	colonists = 5
-	colony_cost_modifier = -1 
-	colonist_placement_chance = 100
-	global_colonial_growth = 10000
-	range = -100
-	colony_development_boost = 1
 	capped_by_forcelimit = yes
-	mercenary_cost = 10000
+	mecenary_cost = 1000
 	cb_on_government_enemies = yes
 	cb_on_religious_enemies = yes 
+	may_establish_frontier = yes 
+	colony_development_boost = 1
 }
 
 national_bank_interest = {
@@ -1860,7 +1858,7 @@ spice_islands_modifier = { #Main entrepots of the Mollucas, point of origin for 
 	trade_goods_size = 3.0
 }
 
-skanemarket = { #Skånemarknaden - Biggest Herring Market in Europe
+skanemarket = { #Skï¿½nemarknaden - Biggest Herring Market in Europe
 	trade_goods_size = 2
 }
 

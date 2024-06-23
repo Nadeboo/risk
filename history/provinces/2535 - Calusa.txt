@@ -25,3 +25,6 @@ discovered_by = ottoman
 discovered_by = polynesian_tech
 discovered_by = south_american
 discovered_by = sub_saharan
+add_core = FLO
+owner = FLO
+controller = FLO
