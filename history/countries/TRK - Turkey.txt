@@ -1,7 +1,7 @@
 government = republic
 primary_culture = turkish
 religion = sunni
-technology_group = ottoman
+technology_group = muslim
 capital = 149# Edirne
 add_government_reform = principality
 government_rank = 1

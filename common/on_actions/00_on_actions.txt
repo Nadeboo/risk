@@ -6,6 +6,28 @@ on_startup = {
 		limit = {}
 		add_ruler_personality = immortal_personality 
 	}
+	if = {
+		limit = {
+			NOT = {
+				ai = yes 
+			}
+		}
+		add_country_modifier = {
+			name = risk_modifier 
+			duration = -1
+			hidden = yes 
+		}
+	}
+	if = {
+		limit = {
+			ai = yes
+		}
+		add_country_modifier = {
+			name = risk_modifier_ai
+			duration = -1
+			hidden = yes 
+		}
+	}
 }
 # country
 on_religion_change = {

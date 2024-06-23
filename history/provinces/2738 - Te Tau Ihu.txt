@@ -25,3 +25,6 @@ discovered_by = north_american
 discovered_by = ottoman
 discovered_by = south_american
 discovered_by = sub_saharan
+add_core = NZL
+owner = NZL
+controller = NZL
